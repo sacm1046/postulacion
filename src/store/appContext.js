@@ -70,10 +70,13 @@ const injectContext = PassedComponent => {
                             )
                             :
                             (
+                                <>
+                                <h3 style={{textAlign: "center", marginTop:"50px"}}>Ingreso</h3>
                                 <StyledFirebaseAuth
                                     uiConfig={this.uiConfig}
                                     firebaseAuth={firebase.auth()}
                                 />
+                                </>
                             )
                     }
                 </>

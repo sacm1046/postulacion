@@ -313,7 +313,7 @@ ion-icon {
             }
             .configuration_content_form_input{
                 display: flex;
-                justify-content: start;
+                justify-content: flex-start;
                 input{
                     width: 85%;
                     height: 35px;
@@ -474,24 +474,7 @@ ion-icon {
         }
     }
 }
-.login {
-    display: flex;
-    .login_form{
-        margin: 50px auto;
-        padding: 20px;
-        color: white;
-        height: 300px;
-        width: 30vw;
-        border-radius: 8px;
-        box-shadow: 0 0 10px grey;
-        background-image: linear-gradient(to right, #ADA4E4 , #94BDF4);
-        text-align: center;
-        .login_form_btn{
-            margin: auto 0;
-        }
-    }
-    
-}
+
 
 
 //Tablet Screen Styles ================================================================================

@@ -1,12 +1,10 @@
-import React, { useContext, useState, useEffect } from 'react'
+import React, { useContext } from 'react'
 import { Context } from '../store/appContext'
 import Sidebar from '../components/Sidebar'
 
 const Graficos = (props) => {
     const { store } = useContext(Context)
-    useEffect(() => {
 
-    }, [])
     return (
         <div className="graphics">
             <Sidebar />
