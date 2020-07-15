@@ -4,8 +4,8 @@ import firebase from 'firebase'
 import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth'
 
 firebase.initializeApp({
-    apiKey: "AIzaSyBtTTOdMjV1VbJqkXoyM0h7v0Bx6dqCSEs",
-    authDomain: "postulacion-5f0b2.firebaseapp.com"
+    apiKey: "",
+    authDomain: ""
 })
 
 export const Context = React.createContext(null);
