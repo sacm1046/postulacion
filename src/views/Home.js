@@ -57,7 +57,7 @@ const Home = props => {
                                         <div key={hotel.id} className="home_body_left_hotels_img">
                                             <h4>{hotel.name}</h4>
                                             <button onClick={() => actions.GETCurrentHotel(hotel)} data-toggle="modal" data-target="#modalHotel">Reservar</button>
-                                            <img src={hotel.url} alt="Not Found" />
+                                            <img src={hotel.url} alt="Not Found" /> 
                                         </div>
                                     ))
                                 }
@@ -85,8 +85,9 @@ const Home = props => {
                         </div>
                     </div>
                 </div>
+                <ModalHotel url={store.currentHotel?store.currentHotel.url:"https://images.pexels.com/photos/374918/pexels-photo-374918.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"} name={store.currentHotel?store.currentHotel.name:"Error"} />
             </div>
-            <ModalHotel url={store.currentHotel?store.currentHotel.url:"https://images.pexels.com/photos/374918/pexels-photo-374918.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"} name={store.currentHotel?store.currentHotel.name:"Error"} />
+            
         </div>
     )
 }

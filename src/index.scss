@@ -488,6 +488,7 @@ ion-icon {
                 display: flex;
                 flex-direction: column;
                 padding: 15px 30px;
+                
             }
             .home_body{
                 flex-direction: column;
@@ -580,6 +581,9 @@ ion-icon {
                 .home_header_icons{
                     display: flex;
                     flex-wrap: wrap;
+                    ion-icon{
+                        margin: 0 10px;
+                    }
                 }
             }
             .home_body{
