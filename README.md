@@ -1,20 +1,29 @@
 Proyecto creado con [Create React App](https://github.com/facebook/create-react-app).
 
+## Requerimientos bases
+
+1. Node JS
+2. NPM
+
 ## Dependencias Instaladas
 
-    @testing-library/jest-dom
-    @testing-library/react
-    @testing-library/user-event
-    firebase
-    node-sass
-    react
-    react-dom
-    react-firebaseui
-    react-router-dom
-    react-scripts
-    bootstrap
-    jquery
-    popper.js
+1. @testing-library/jest-dom
+2. @testing-library/react
+3. @testing-library/user-event
+4. firebase
+5. node-sass
+6. react
+7. react-dom
+8. react-firebaseui
+9. react-router-dom
+10. react-scripts
+11. bootstrap
+12. jquery
+13. popper.js
+
+## Instalación de Dependencias
+
+Para instalar las dependencias ejecutar npm install  
 
 ## Scripts Disponibles
 
