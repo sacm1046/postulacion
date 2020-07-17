@@ -12,6 +12,9 @@ Proyecto creado con [Create React App](https://github.com/facebook/create-react-
     react-firebaseui
     react-router-dom
     react-scripts
+    bootstrap
+    jquery
+    popper.js
 
 ## Scripts Disponibles
 
